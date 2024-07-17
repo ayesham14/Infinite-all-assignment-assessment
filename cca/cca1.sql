@@ -46,6 +46,7 @@ from employees
 where doj_month = 'july'
     and (doj_year < 2020)
 
+	select * from employees
   --4
 
   create table employeee
@@ -98,16 +99,14 @@ select * from employeees
 
 create function calculateBonus(depptno int, salry decimal(10, 2)) returns decimal(10, 2)
 begin
-    declare bonus decimal(10, 2);
-    
-    if depptno = 10 then
-        set bonus = salry * 0.15; 
-    elseif depptno = 20 then
-        set bonus = salry * 0.20; 
-        set bonus = salry * 0.05; 
-    end if;
-    
-    return bonus;
+declare bonus decimal(10, 2);
+if depptno = 10 then
+set bonus = salry * 0.15; 
+elseif depptno = 20 then
+set bonus = salry * 0.20; 
+set bonus = salry * 0.05; 
+end if;
+return bonus;
 end 
 
 select emppname, salry, dname as department, calculateBonus(e.depptno, e.salry) as bonus

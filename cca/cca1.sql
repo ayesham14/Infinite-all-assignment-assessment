@@ -97,20 +97,19 @@ select * from employeees
 
 
 
-create function calculateBonus(depptno int, salry decimal(10, 2)) returns decimal(10, 2)
+create function dbo.calculatebonus(@deptno int, @sal decimal(10, 2))
+returns decimal(10, 2)
+as
 begin
-declare bonus decimal(10, 2);
-if depptno = 10 then
-set bonus = salry * 0.15; 
-elseif depptno = 20 then
-set bonus = salry * 0.20; 
-set bonus = salry * 0.05; 
-end if;
-return bonus;
-end 
+declare @bonus decimal(10, 2);
+set @bonus = 
+case 
+when @deptno = 10 then @sal * 0.15  
+when @deptno = 20 then @sal * 0.20 
+else @sal * 0.05                    
+end
+return @bonus
+end
 
-select emppname, salry, dname as department, calculateBonus(e.depptno, e.salry) as bonus
-from employeees e
-join departments d on e.depptno = d.depptno;
-
-
+select emppno, emppname, salry, depptno, dbo.calculatebonus(deptno, sal) as bonus
+from employeees

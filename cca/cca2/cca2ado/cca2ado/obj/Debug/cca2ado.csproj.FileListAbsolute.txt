@@ -1,0 +1,7 @@
+D:\sql\SQL\cca\cca2\cca2ado\cca2ado\bin\Debug\cca2ado.exe.config
+D:\sql\SQL\cca\cca2\cca2ado\cca2ado\bin\Debug\cca2ado.exe
+D:\sql\SQL\cca\cca2\cca2ado\cca2ado\bin\Debug\cca2ado.pdb
+D:\sql\SQL\cca\cca2\cca2ado\cca2ado\obj\Debug\cca2ado.csproj.AssemblyReference.cache
+D:\sql\SQL\cca\cca2\cca2ado\cca2ado\obj\Debug\cca2ado.csproj.CoreCompileInputs.cache
+D:\sql\SQL\cca\cca2\cca2ado\cca2ado\obj\Debug\cca2ado.exe
+D:\sql\SQL\cca\cca2\cca2ado\cca2ado\obj\Debug\cca2ado.pdb

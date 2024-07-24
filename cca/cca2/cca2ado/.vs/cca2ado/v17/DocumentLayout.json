@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\sql\\SQL\\cca\\cca2\\cca2ado\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CDC1F238-76F4-4A51-AD66-FD066097176C}|cca2ado\\cca2ado.csproj|d:\\sql\\sql\\cca\\cca2\\cca2ado\\cca2ado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDC1F238-76F4-4A51-AD66-FD066097176C}|cca2ado\\cca2ado.csproj|solutionrelative:cca2ado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\sql\\Practice\\disconnected\\disconnected\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\sql\\Practice\\disconnected\\disconnected\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Practice\\disconnected\\disconnected\\Program.cs",
+              "ToolTip": "D:\\sql\\Practice\\disconnected\\disconnected\\Program.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Practice\\disconnected\\disconnected\\Program.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABkAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T05:15:14.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\sql\\SQL\\cca\\cca2\\cca2ado\\cca2ado\\Program.cs",
+              "RelativeDocumentMoniker": "cca2ado\\Program.cs",
+              "ToolTip": "D:\\sql\\SQL\\cca\\cca2\\cca2ado\\cca2ado\\Program.cs",
+              "RelativeToolTip": "cca2ado\\Program.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAEsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T05:06:12.642Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

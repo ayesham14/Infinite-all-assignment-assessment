@@ -1,0 +1,7 @@
+D:\ado\AssignmnetADO\AssignmnetADO\bin\Debug\AssignmnetADO.exe.config
+D:\ado\AssignmnetADO\AssignmnetADO\bin\Debug\AssignmnetADO.exe
+D:\ado\AssignmnetADO\AssignmnetADO\bin\Debug\AssignmnetADO.pdb
+D:\ado\AssignmnetADO\AssignmnetADO\obj\Debug\AssignmnetADO.csproj.AssemblyReference.cache
+D:\ado\AssignmnetADO\AssignmnetADO\obj\Debug\AssignmnetADO.csproj.CoreCompileInputs.cache
+D:\ado\AssignmnetADO\AssignmnetADO\obj\Debug\AssignmnetADO.exe
+D:\ado\AssignmnetADO\AssignmnetADO\obj\Debug\AssignmnetADO.pdb

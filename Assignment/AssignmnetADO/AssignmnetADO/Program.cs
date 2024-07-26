@@ -155,7 +155,7 @@ namespace AssignmnetADO
                                     where e.DOB == youngestDOB
                                     select e;
 
-            Console.WriteLine("\nYoungest employee(s):");
+            Console.WriteLine("Youngest employee:");
             foreach (var e in youngestEmp)
             {
                 Console.WriteLine($"{e.EmployeeID}: {e.FirstName} {e.LastName}, {e.Title}, {e.DOB.ToShortDateString()}, {e.City}");

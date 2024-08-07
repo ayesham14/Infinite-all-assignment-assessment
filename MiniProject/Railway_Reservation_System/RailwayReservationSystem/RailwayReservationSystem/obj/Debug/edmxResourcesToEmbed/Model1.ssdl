@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="railwayDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Bookings">
+    <Key>
+      <PropertyRef Name="bookingId" />
+    </Key>
+    <Property Name="bookingId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="userId" Type="int" />
+    <Property Name="tno" Type="int" />
+    <Property Name="seats_booked" Type="int" />
+    <Property Name="booking_date" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Cancellations">
+    <Key>
+      <PropertyRef Name="cancellationId" />
+    </Key>
+    <Property Name="cancellationId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="bookingId" Type="int" />
+    <Property Name="seats_cancelled" Type="int" />
+    <Property Name="cancellation_date" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Train">
+    <Key>
+      <PropertyRef Name="tno" />
+    </Key>
+    <Property Name="tno" Type="int" Nullable="false" />
+    <Property Name="tname" Type="varchar" MaxLength="100" />
+    <Property Name="from" Type="varchar" MaxLength="100" />
+    <Property Name="dest" Type="varchar" MaxLength="100" />
+    <Property Name="price" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="class_of_travel" Type="varchar" MaxLength="50" />
+    <Property Name="train_status" Type="varchar" MaxLength="10" />
+    <Property Name="seats_available" Type="int" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="userId" />
+    </Key>
+    <Property Name="userId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="username" Type="varchar" MaxLength="100" />
+    <Property Name="password" Type="varchar" MaxLength="100" />
+    <Property Name="role" Type="varchar" MaxLength="10" />
+  </EntityType>
+  <Association Name="FK__Bookings__tno__3C69FB99">
+    <End Role="Train" Type="Self.Train" Multiplicity="0..1" />
+    <End Role="Bookings" Type="Self.Bookings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Train">
+        <PropertyRef Name="tno" />
+      </Principal>
+      <Dependent Role="Bookings">
+        <PropertyRef Name="tno" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Bookings__userId__3B75D760">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="Bookings" Type="Self.Bookings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="userId" />
+      </Principal>
+      <Dependent Role="Bookings">
+        <PropertyRef Name="userId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Cancellat__booki__3F466844">
+    <End Role="Bookings" Type="Self.Bookings" Multiplicity="0..1" />
+    <End Role="Cancellations" Type="Self.Cancellations" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Bookings">
+        <PropertyRef Name="bookingId" />
+      </Principal>
+      <Dependent Role="Cancellations">
+        <PropertyRef Name="bookingId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="railwayDBModelStoreContainer">
+    <EntitySet Name="Bookings" EntityType="Self.Bookings" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Cancellations" EntityType="Self.Cancellations" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Train" EntityType="Self.Train" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Bookings__tno__3C69FB99" Association="Self.FK__Bookings__tno__3C69FB99">
+      <End Role="Train" EntitySet="Train" />
+      <End Role="Bookings" EntitySet="Bookings" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Bookings__userId__3B75D760" Association="Self.FK__Bookings__userId__3B75D760">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Bookings" EntitySet="Bookings" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Cancellat__booki__3F466844" Association="Self.FK__Cancellat__booki__3F466844">
+      <End Role="Bookings" EntitySet="Bookings" />
+      <End Role="Cancellations" EntitySet="Cancellations" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

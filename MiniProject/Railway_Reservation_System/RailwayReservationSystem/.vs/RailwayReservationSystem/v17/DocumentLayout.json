@@ -1,0 +1,162 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\sql\\SQL\\MiniProject\\Railway_Reservation_System\\RailwayReservationSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{460AF8C7-12BB-4AB4-B5B2-BE56A5787154}|RailwayReservationSystem\\RailwayReservationSystem.csproj|d:\\sql\\sql\\miniproject\\railway_reservation_system\\railwayreservationsystem\\railwayreservationsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{460AF8C7-12BB-4AB4-B5B2-BE56A5787154}|RailwayReservationSystem\\RailwayReservationSystem.csproj|solutionrelative:railwayreservationsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{460AF8C7-12BB-4AB4-B5B2-BE56A5787154}|RailwayReservationSystem\\RailwayReservationSystem.csproj|d:\\sql\\sql\\miniproject\\railway_reservation_system\\railwayreservationsystem\\railwayreservationsystem\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{460AF8C7-12BB-4AB4-B5B2-BE56A5787154}|RailwayReservationSystem\\RailwayReservationSystem.csproj|solutionrelative:railwayreservationsystem\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{460AF8C7-12BB-4AB4-B5B2-BE56A5787154}|RailwayReservationSystem\\RailwayReservationSystem.csproj|d:\\sql\\sql\\miniproject\\railway_reservation_system\\railwayreservationsystem\\railwayreservationsystem\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{460AF8C7-12BB-4AB4-B5B2-BE56A5787154}|RailwayReservationSystem\\RailwayReservationSystem.csproj|solutionrelative:railwayreservationsystem\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{460AF8C7-12BB-4AB4-B5B2-BE56A5787154}|RailwayReservationSystem\\RailwayReservationSystem.csproj|d:\\sql\\sql\\miniproject\\railway_reservation_system\\railwayreservationsystem\\railwayreservationsystem\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{460AF8C7-12BB-4AB4-B5B2-BE56A5787154}|RailwayReservationSystem\\RailwayReservationSystem.csproj|solutionrelative:railwayreservationsystem\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{460AF8C7-12BB-4AB4-B5B2-BE56A5787154}|RailwayReservationSystem\\RailwayReservationSystem.csproj|d:\\sql\\sql\\miniproject\\railway_reservation_system\\railwayreservationsystem\\railwayreservationsystem\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{460AF8C7-12BB-4AB4-B5B2-BE56A5787154}|RailwayReservationSystem\\RailwayReservationSystem.csproj|solutionrelative:railwayreservationsystem\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{460AF8C7-12BB-4AB4-B5B2-BE56A5787154}|RailwayReservationSystem\\RailwayReservationSystem.csproj|d:\\sql\\sql\\miniproject\\railway_reservation_system\\railwayreservationsystem\\railwayreservationsystem\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{460AF8C7-12BB-4AB4-B5B2-BE56A5787154}|RailwayReservationSystem\\RailwayReservationSystem.csproj|solutionrelative:railwayreservationsystem\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{460AF8C7-12BB-4AB4-B5B2-BE56A5787154}|RailwayReservationSystem\\RailwayReservationSystem.csproj|d:\\sql\\sql\\miniproject\\railway_reservation_system\\railwayreservationsystem\\railwayreservationsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{460AF8C7-12BB-4AB4-B5B2-BE56A5787154}|RailwayReservationSystem\\RailwayReservationSystem.csproj|solutionrelative:railwayreservationsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{460AF8C7-12BB-4AB4-B5B2-BE56A5787154}|RailwayReservationSystem\\RailwayReservationSystem.csproj|d:\\sql\\sql\\miniproject\\railway_reservation_system\\railwayreservationsystem\\railwayreservationsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{460AF8C7-12BB-4AB4-B5B2-BE56A5787154}|RailwayReservationSystem\\RailwayReservationSystem.csproj|solutionrelative:railwayreservationsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "D:\\sql\\SQL\\MiniProject\\Railway_Reservation_System\\RailwayReservationSystem\\RailwayReservationSystem\\Model1.edmx",
+              "RelativeDocumentMoniker": "RailwayReservationSystem\\Model1.edmx",
+              "ToolTip": "D:\\sql\\SQL\\MiniProject\\Railway_Reservation_System\\RailwayReservationSystem\\RailwayReservationSystem\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "RailwayReservationSystem\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-08-04T17:57:23.224Z",
+              "IsPinned": true,
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "D:\\sql\\SQL\\MiniProject\\Railway_Reservation_System\\RailwayReservationSystem\\RailwayReservationSystem\\LoginForm.cs",
+              "RelativeDocumentMoniker": "RailwayReservationSystem\\LoginForm.cs",
+              "ToolTip": "D:\\sql\\SQL\\MiniProject\\Railway_Reservation_System\\RailwayReservationSystem\\RailwayReservationSystem\\LoginForm.cs",
+              "RelativeToolTip": "RailwayReservationSystem\\LoginForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T18:02:03.738Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminForm.cs",
+              "DocumentMoniker": "D:\\sql\\SQL\\MiniProject\\Railway_Reservation_System\\RailwayReservationSystem\\RailwayReservationSystem\\AdminForm.cs",
+              "RelativeDocumentMoniker": "RailwayReservationSystem\\AdminForm.cs",
+              "ToolTip": "D:\\sql\\SQL\\MiniProject\\Railway_Reservation_System\\RailwayReservationSystem\\RailwayReservationSystem\\AdminForm.cs",
+              "RelativeToolTip": "RailwayReservationSystem\\AdminForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAG0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T18:18:20.494Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminForm.cs [Design]",
+              "DocumentMoniker": "D:\\sql\\SQL\\MiniProject\\Railway_Reservation_System\\RailwayReservationSystem\\RailwayReservationSystem\\AdminForm.cs",
+              "RelativeDocumentMoniker": "RailwayReservationSystem\\AdminForm.cs",
+              "ToolTip": "D:\\sql\\SQL\\MiniProject\\Railway_Reservation_System\\RailwayReservationSystem\\RailwayReservationSystem\\AdminForm.cs [Design]",
+              "RelativeToolTip": "RailwayReservationSystem\\AdminForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T18:16:37.293Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserForm.cs",
+              "DocumentMoniker": "D:\\sql\\SQL\\MiniProject\\Railway_Reservation_System\\RailwayReservationSystem\\RailwayReservationSystem\\UserForm.cs",
+              "RelativeDocumentMoniker": "RailwayReservationSystem\\UserForm.cs",
+              "ToolTip": "D:\\sql\\SQL\\MiniProject\\Railway_Reservation_System\\RailwayReservationSystem\\RailwayReservationSystem\\UserForm.cs",
+              "RelativeToolTip": "RailwayReservationSystem\\UserForm.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACEAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T18:20:07.327Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserForm.cs [Design]",
+              "DocumentMoniker": "D:\\sql\\SQL\\MiniProject\\Railway_Reservation_System\\RailwayReservationSystem\\RailwayReservationSystem\\UserForm.cs",
+              "RelativeDocumentMoniker": "RailwayReservationSystem\\UserForm.cs",
+              "ToolTip": "D:\\sql\\SQL\\MiniProject\\Railway_Reservation_System\\RailwayReservationSystem\\RailwayReservationSystem\\UserForm.cs [Design]",
+              "RelativeToolTip": "RailwayReservationSystem\\UserForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T18:16:58.816Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\sql\\SQL\\MiniProject\\Railway_Reservation_System\\RailwayReservationSystem\\RailwayReservationSystem\\Program.cs",
+              "RelativeDocumentMoniker": "RailwayReservationSystem\\Program.cs",
+              "ToolTip": "D:\\sql\\SQL\\MiniProject\\Railway_Reservation_System\\RailwayReservationSystem\\RailwayReservationSystem\\Program.cs",
+              "RelativeToolTip": "RailwayReservationSystem\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T18:48:34.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "D:\\sql\\SQL\\MiniProject\\Railway_Reservation_System\\RailwayReservationSystem\\RailwayReservationSystem\\LoginForm.cs",
+              "RelativeDocumentMoniker": "RailwayReservationSystem\\LoginForm.cs",
+              "ToolTip": "D:\\sql\\SQL\\MiniProject\\Railway_Reservation_System\\RailwayReservationSystem\\RailwayReservationSystem\\LoginForm.cs [Design]",
+              "RelativeToolTip": "RailwayReservationSystem\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T21:10:29.989Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

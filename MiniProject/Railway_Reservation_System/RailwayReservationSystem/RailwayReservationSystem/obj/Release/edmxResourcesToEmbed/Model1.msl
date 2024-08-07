@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="railwayDBModelStoreContainer" CdmEntityContainer="railwayDBEntities">
+    <EntitySetMapping Name="Bookings">
+      <EntityTypeMapping TypeName="railwayDBModel.Booking">
+        <MappingFragment StoreEntitySet="Bookings">
+          <ScalarProperty Name="bookingId" ColumnName="bookingId" />
+          <ScalarProperty Name="userId" ColumnName="userId" />
+          <ScalarProperty Name="tno" ColumnName="tno" />
+          <ScalarProperty Name="seats_booked" ColumnName="seats_booked" />
+          <ScalarProperty Name="booking_date" ColumnName="booking_date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cancellations">
+      <EntityTypeMapping TypeName="railwayDBModel.Cancellation">
+        <MappingFragment StoreEntitySet="Cancellations">
+          <ScalarProperty Name="cancellationId" ColumnName="cancellationId" />
+          <ScalarProperty Name="bookingId" ColumnName="bookingId" />
+          <ScalarProperty Name="seats_cancelled" ColumnName="seats_cancelled" />
+          <ScalarProperty Name="cancellation_date" ColumnName="cancellation_date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Trains">
+      <EntityTypeMapping TypeName="railwayDBModel.Train">
+        <MappingFragment StoreEntitySet="Train">
+          <ScalarProperty Name="tno" ColumnName="tno" />
+          <ScalarProperty Name="tname" ColumnName="tname" />
+          <ScalarProperty Name="from" ColumnName="from" />
+          <ScalarProperty Name="dest" ColumnName="dest" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="class_of_travel" ColumnName="class_of_travel" />
+          <ScalarProperty Name="train_status" ColumnName="train_status" />
+          <ScalarProperty Name="seats_available" ColumnName="seats_available" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="railwayDBModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="userId" ColumnName="userId" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="role" ColumnName="role" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

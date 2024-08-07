@@ -1,0 +1,7 @@
+D:\sql\SQL\MiniProject\Train\Train\obj\Debug\Train.csproj.AssemblyReference.cache
+D:\sql\SQL\MiniProject\Train\Train\obj\Debug\Train.csproj.CoreCompileInputs.cache
+D:\sql\SQL\MiniProject\Train\Train\bin\Debug\Train.exe.config
+D:\sql\SQL\MiniProject\Train\Train\bin\Debug\Train.exe
+D:\sql\SQL\MiniProject\Train\Train\bin\Debug\Train.pdb
+D:\sql\SQL\MiniProject\Train\Train\obj\Debug\Train.exe
+D:\sql\SQL\MiniProject\Train\Train\obj\Debug\Train.pdb

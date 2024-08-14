@@ -1,0 +1,10 @@
+﻿@model IEnumerable<cca_mvc111.Customer>
+
+<h2>German Customers</h2>
+
+<ul>
+    @foreach (var customer in Model)
+    {
+        <li>@customer.CompanyName (@customer.Country)</li>
+    }
+</ul>

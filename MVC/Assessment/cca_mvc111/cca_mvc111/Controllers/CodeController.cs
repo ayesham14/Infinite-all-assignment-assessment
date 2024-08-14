@@ -8,7 +8,7 @@ namespace cca_mvc111.Controllers
 {
     public class CodeController : Controller
     {
-        public northwindEntities db = new northwindEntities();
+        public NorthwindEntities db = new NorthwindEntities();
 
         public ActionResult Index()
         {

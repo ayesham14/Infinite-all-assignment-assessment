@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Infinite\\Infinite-all-assignment-assessment\\WebAppl\\cca_last\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{358FE114-13BB-47EF-BC9B-7698284196DC}|cca_last\\cca_last.csproj|d:\\infinite\\infinite-all-assignment-assessment\\webappl\\cca_last\\cca_last\\controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358FE114-13BB-47EF-BC9B-7698284196DC}|cca_last\\cca_last.csproj|solutionrelative:cca_last\\controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{358FE114-13BB-47EF-BC9B-7698284196DC}|cca_last\\cca_last.csproj|d:\\infinite\\infinite-all-assignment-assessment\\webappl\\cca_last\\cca_last\\models\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{358FE114-13BB-47EF-BC9B-7698284196DC}|cca_last\\cca_last.csproj|solutionrelative:cca_last\\models\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CountryController.cs",
+              "DocumentMoniker": "D:\\Infinite\\Infinite-all-assignment-assessment\\WebAppl\\cca_last\\cca_last\\Controllers\\CountryController.cs",
+              "RelativeDocumentMoniker": "cca_last\\Controllers\\CountryController.cs",
+              "ToolTip": "D:\\Infinite\\Infinite-all-assignment-assessment\\WebAppl\\cca_last\\cca_last\\Controllers\\CountryController.cs",
+              "RelativeToolTip": "cca_last\\Controllers\\CountryController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T04:36:03.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Country.cs",
+              "DocumentMoniker": "D:\\Infinite\\Infinite-all-assignment-assessment\\WebAppl\\cca_last\\cca_last\\Models\\Country.cs",
+              "RelativeDocumentMoniker": "cca_last\\Models\\Country.cs",
+              "ToolTip": "D:\\Infinite\\Infinite-all-assignment-assessment\\WebAppl\\cca_last\\cca_last\\Models\\Country.cs",
+              "RelativeToolTip": "cca_last\\Models\\Country.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T04:34:45.701Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
